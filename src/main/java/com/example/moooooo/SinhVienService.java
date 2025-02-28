@@ -36,7 +36,6 @@ public class SinhVienService {
         sinhViens.add(sv);
     }
 
-
     public void update(SinhVien sv){
 
     }

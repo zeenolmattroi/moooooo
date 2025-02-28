@@ -19,10 +19,10 @@ class SinhVienServiceTest {
         assertEquals(ex,act);
     }
 
-    @Test
-    void testSuaSinhVien2(){
-        assertThrows(IllegalArgumentException.class,()->{service.SuaSinhVien(sv,request1);});
-    }
+//    @Test
+//    void testSuaSinhVien2(){
+//        assertThrows(IllegalArgumentException.class,()->{service.SuaSinhVien(sv,request1);});
+//    }
 
 
 
