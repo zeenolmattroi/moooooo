@@ -21,8 +21,10 @@ public class SinhVienService {
         sv.setDiemTrungBinh(request.getDiemTrungBinh());
         sv.setKyHoc(request.getKyHoc());
         sv.setChuyenNganh(request.getChuyenNganh());
-        System.out.println("Sinh viên đã được sửa" );
+        System.out.println("Sinh viên đã được sửa thành như sau" );
         System.out.println(sv);
         return "cập nhật sinh viên thành công";
+
+
     }
 }
