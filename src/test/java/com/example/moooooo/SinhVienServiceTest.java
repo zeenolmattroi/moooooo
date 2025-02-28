@@ -16,6 +16,8 @@ class SinhVienServiceTest {
     void testSuaSinhVien1(){
         String ex = service.SuaSinhVien(sv,request);
         String act="cập nhật sinh viên thành công";
+
+
         assertEquals(ex,act);
     }
 
