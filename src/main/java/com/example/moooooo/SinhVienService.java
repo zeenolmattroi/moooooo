@@ -3,12 +3,6 @@ package com.example.moooooo;
 import java.util.ArrayList;
 
 public class SinhVienService {
-
-    public ArrayList<SinhVien> sinhViens = new ArrayList<>();
-
-
-
-
     public String SuaSinhVien(SinhVien sv, SinhVien request){
 
         if(request.getTen().isEmpty()|| request.getTen()==null){
@@ -30,13 +24,5 @@ public class SinhVienService {
         System.out.println("Sinh viên đã được sửa" );
         System.out.println(sv);
         return "cập nhật sinh viên thành công";
-    }
-
-    public void add(SinhVien sv){
-        sinhViens.add(sv);
-    }
-
-    public void update(SinhVien sv){
-
     }
 }
